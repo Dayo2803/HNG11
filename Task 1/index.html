@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HNG11 Task1</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/e50ef52172.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <!-- Navbar section -->
+     <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo"><i class="fa-solid fa-bullseye"></i> GOALS</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">Tech stack</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">Goals</a>
+                </li>
+            </ul>
+        </div>
+     </nav>
+
+     <!-- Hero Section -->
+      <div class="main">
+        <div class="main__container">
+            <div class="intro">
+                <img src="https://ca.slack-edge.com/T07466B189M-U079WL36MV3-3a32baa8e85b-512" alt="Slack Profile Picture" data-testid="slackProfilePicture" width="200" height="200">
+                <div class="details">
+                    <h4 data-testid="slackDisplayName">Display: Yinsola</h4>
+                    <p data-testid="currentTimeUTC">Time: <span id="current-time"></span></p>
+                    <p data-testid="currentDay">Day: <span id="current-day"></span></p>
+                    <p data-testid="slackEmail">Email:hammedoyinkansola123@gmail.com</p>
+                </div>
+              </div>
+        
+              <div class="goals">
+                <a href="/" id="navbar__logo"><i class="fa-solid fa-bullseye"></i> GOALS</a>
+                <h2>My Tech Goals for the Next 2 Years</h2>
+                <section>
+                    <ul>
+                        <li>Deepen my knowledge of JavaScript frameworks (React, Vue.js, Angular).</li>
+                        <li>Master backend technologies like Node.js, Express, and Django.</li>
+                        <li>Learn database management with both SQL (PostgreSQL, MySQL) and NoSQL (MongoDB) databases.</li>
+                        <li>Understand and implement RESTful and GraphQL APIs.</li>
+                        <li>Gain proficiency in DevOps tools and practices (Docker, Kubernetes, CI/CD).</li>
+                        <li>Build and deploy full stack applications using MERN and MEVN stacks.</li>
+                        <li>Improve problem-solving skills by practicing algorithms and data structures.</li>
+                        <li>Contribute to open source projects and collaborate with other developers.</li>
+                    </ul>
+                </section>
+            </main>
+              </div>
+        </div>
+      </div>
+
+      <footer>
+        <p>Check out the following links</p>
+        <a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
+        <a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a>
+        <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a>
+        <p>© 2024 Aspiring Full-Stack Developer</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
